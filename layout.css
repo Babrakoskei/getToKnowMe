@@ -94,9 +94,9 @@ left: 60%;
 
 .readMore:hover{
     cursor: pointer;
-    background-color:orangered;
+    background-color:red;
     font-weight: bold;
-    box-shadow: 0 0px white 0 0 10px white 0 0 15px white;
+    box-shadow: inset 0 0 15px black
 
 }
 .heading{
@@ -107,13 +107,14 @@ left: 60%;
 .text2{
 text-align: center;
 font-size: larger;
-background:orangered;
+background: black;
+color: white;
 width: 60%;
 height: 230px;
 margin: auto;
 margin-bottom: 100px;
 justify-content: center;
-box-shadow:0 5px 25px 0;
+box-shadow:0 5px 25px white;
 word-spacing: 4px;
 padding: 1%;
 
