@@ -1,0 +1,48 @@
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+   
+  
+ 
+}
+
+.form{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        border: black;
+        border-style: double;
+        height: 400px;
+        width: 25%;
+    }
+ .input{
+     width: 170px;
+     padding: 10px;
+    margin: 10px;
+ }
+
+#register{
+    
+    width: 100px;
+   margin-left: 80px;
+   margin-top: 110px;
+   
+}
+#register:hover{
+cursor: pointer;
+background-color: aqua;
+color: black;
+box-shadow: 0 0 10px black;
+}
+
+h3{
+    float:right;
+}
+
+.create{
+    
+    margin-top: 80px;
+    text-align: center;
+}
